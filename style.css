@@ -186,7 +186,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.png") no-repeat center;
+    background: url("images/banner.png");
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -236,9 +236,12 @@ section .title::after{
 }
 
 .home .home-content .softwares{
+    
+    display: inline-block;
     margin: 0 20px;
     background: #111;
-    color: crimson
+    color: crimson;
+   
   }
   .home .home-content .softwares:hover{
     color: #fff;
@@ -342,7 +345,7 @@ section .title::after{
 .services .title::after,
 .portfolio .title::after{
     background: #111;
-    content: "what i can do for you";
+    content: "what i can do";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -839,4 +842,13 @@ footer span a:hover{
     .home{
         background: url("images/banner-1.png") no-repeat center;
     }
+    .home .home-content .softwares{
+       
+        margin-top: 30px;
+        margin-left: 2px;
+    }
+    .home .home-content .social-icons a:first-child {
+        margin-left: 10px; 
+    }
+   
 }
