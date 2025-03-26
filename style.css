@@ -713,7 +713,7 @@ footer span a:hover{
     }
 }
 @media (max-width: 1024px) {
-    .max-width{
+    .home{
         background: url("images/banner-1.png") no-repeat center;
     }
 }
