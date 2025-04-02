@@ -715,40 +715,22 @@ footer span a:hover{
 @media (max-width: 1024px) {
     .home{
         background: url("images/alex2.jpg") no-repeat center;
-@media (max-width: 1024px) {
-    .carousel {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px; /* Adjust spacing between cards */
     }
-
-    .card {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-        width: 100%; /* Ensures all cards take up equal width */
-        max-width: 300px; /* Adjust this based on your design */
-        height: 350px; /* Adjust as needed */
-    }
-
-    .box {
-        flex-grow: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 100%;
-    }
-
-    .box img {
-        max-width: 100%;
-        height: auto;
-    }
+        .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensures all cards are equal */
 }
 
-    }
+.box {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+   }
 }
 
 @media (max-width: 991px) {
