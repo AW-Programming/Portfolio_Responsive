@@ -725,7 +725,7 @@ footer span a:hover{
     text-align: center;
     width: 100%;
     max-width: 300px; /* Adjust width as needed */
-    height: 350px; /* Set a fixed height */
+    height: 400px; /* Set a fixed height */
     overflow: hidden;
    }
 }
