@@ -746,6 +746,7 @@ footer span a:hover{
         line-height: 45px; /* Center text/icon inside */
         border-radius: 50%; /* Keep it circular */
         margin-top: 10px; /* Reduce spacing */
+  }
 }
 
 @media (max-width: 991px) {
