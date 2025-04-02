@@ -739,6 +739,18 @@ footer span a:hover{
     height: 400px; /* Set a fixed height */
     overflow: hidden;
    }
+.portfolio .carousel .card a{
+    margin-top: 20px;
+    color: #ff004f;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 20px;
+    height:20px;
+    border-radius: 50px;
+    text-align: center;
+    opacity: 0;
 }
 
 @media (max-width: 991px) {
