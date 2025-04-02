@@ -739,18 +739,13 @@ footer span a:hover{
     height: 400px; /* Set a fixed height */
     overflow: hidden;
    }
-.portfolio .carousel .card a{
-    margin-top: 5px;
-    color: #ff004f;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 60px;
-    background: #fff;
-    width: 20px;
-    height:20px;
-    border-radius: 50px;
-    text-align: center;
-    opacity: 0;
+.portfolio .carousel .card a {
+        font-size: 14px; /* Reduce font size */
+        width: 45px; /* Make button smaller */
+        height: 45px;
+        line-height: 45px; /* Center text/icon inside */
+        border-radius: 50%; /* Keep it circular */
+        margin-top: 10px; /* Reduce spacing */
 }
 
 @media (max-width: 991px) {
