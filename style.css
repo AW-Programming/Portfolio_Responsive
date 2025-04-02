@@ -741,9 +741,9 @@ footer span a:hover{
    }
 .portfolio .carousel .card a {    
     font-size: 12px; /* Even smaller text/icon */
-    width: 35px; /* Smaller button */
-    height: 35px;
-    line-height: 35px; /* Keeps the icon centered */
+    width: 30px; /* Smaller button */
+    height: 30px;
+    line-height: 30px; /* Keeps the icon centered */
     border-radius: 50%; /* Maintains circular shape */
     margin-top: 5px; /* Reduce spacing further */
   }
