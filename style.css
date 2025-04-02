@@ -735,7 +735,7 @@ footer span a:hover{
     align-items: center;
     text-align: center;
     width: 100%;
-    max-width: 300px; /* Adjust width as needed */
+    max-width: 350px; /* Adjust width as needed */
     height: 400px; /* Set a fixed height */
     overflow: hidden;
    }
@@ -745,7 +745,7 @@ footer span a:hover{
     height: 30px;
     line-height: 30px; /* Keeps the icon centered */
     border-radius: 50%; /* Maintains circular shape */
-    margin-top: 5px; /* Reduce spacing further */
+    margin-top: 2px; /* Reduce spacing further */
   }
 }
 
