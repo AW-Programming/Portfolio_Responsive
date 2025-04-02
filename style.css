@@ -720,7 +720,7 @@ footer span a:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%; /* Ensures all cards are equal */
+    height: 150%; /* Ensures all cards are equal */
 }
 
 .box {
